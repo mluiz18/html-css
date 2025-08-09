@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Responsividade</h1>
+    <p>É importante pensar em <b>adaptar sua imagem</b> e seu site ao tamanho do dispositivo em que o seu usuário está acessando.</p>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Dê ou retire o zoom</p>
+    <p>Usando as tags &lt;picture&gt; e &lt;source&gt; podemos fazer um site responsive no quesito imagens, lembrando que <b>a tag source tem que ser em ordem crescente</b></p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem Flexível">
+    </picture>
+</body>
+</html>
