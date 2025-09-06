@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fontes</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
         body {
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-family: 'Work Sans','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                /* 
             Medidas Absolutas: Vão mudar conforme a tela do dispositivo
             Exemplos:
@@ -32,9 +33,15 @@
             16 px -Geralmente é igual a- 1em
             */
             font-size: 15px;
+            font-weight: 10;
         }
+
+        /* 
+            Shorthand -> te permite encurtar o código e armazenar suas definições de fontes
+            tem que ser nessa ordem: font-family -> font-weight -> font-size -> font-style
+        */
         h1, h2 {
-            font-family: 'Times New Roman', Times, serif;
+            font: normal normal 3em 'Work Sans','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             text-align: center;
             background-color: rgba(148, 148, 148, 0.429);
         }
