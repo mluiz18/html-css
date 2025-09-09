@@ -17,3 +17,25 @@ h1#principal {
 h2 {
     color: rgb(255, 208, 0);
 }
+
+.Básico {
+    color: chocolate;
+}
+
+.Intermediário {
+    color: blueviolet;
+}
+
+.Avançado {
+    color: aqua;
+}
+
+p {
+    text-align: justify;
+    background: bisque;
+}
+
+.destaque {
+    background-color: chartreuse;
+    font-weight: bolder;
+}
