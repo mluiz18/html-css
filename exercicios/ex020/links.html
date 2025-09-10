@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        a {
+            color: rgb(72, 160, 37);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: rgb(35, 78, 18);
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: rgb(113, 255, 57);
+        }
+        
+        a:active {
+            color: rgb(0, 0, 0);
+        }
+
+        a::after {
+            content: " [link]";
+            text-decoration: none;
+            font-weight: normal;
+        }
+ 
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.linkedin.com/in/miguelluizamaral" rel="external" target="_blank">Instagram</a></li>
+        <li><a href="https://github.com/mluiz18" rel="external" target="_blank">GitHub</a></li>
+        <li><a href="https://www.instagram.com/miguel_lasb" rel="external" target="_blank">LinkedIn</a></li>
+    </ul>
+</body>
+</html>
