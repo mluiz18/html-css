@@ -17,6 +17,7 @@ header {
     background-image: linear-gradient(to top,#195B38,#3CD782);
     color: white;
     padding-top: 10px;
+    margin: auto;
 }
 
 header>h2 {
@@ -40,15 +41,25 @@ a:hover {
     text-decoration: underline;
 }
 
-section>h1 {
+a {
+    color: #1b7949;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section > h1 {
     font-family: Idroid;
+    font-weight: normal;
+    color: #145533;
+    background-image: linear-gradient(to right, #7affb894, transparent);
+    padding: 5px;
 }
 
 main {
     padding-left: 100px;
     padding-right: 100px;
     background-color: white;
-    margin-left: 325px;
+    margin: auto;
     width: 750px;
 }
 
@@ -56,8 +67,23 @@ main>section {
     padding-top: 10px;
 }
 
-section>h1 {
-    color: #195B38;
-    background-image: linear-gradient(to right, #7affb894, transparent);
-    padding: 5px;
+section#learn_more {
+    background-color: #3CD782;
+    border-radius: 15px;
+}
+
+section#learn_more>h1 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-image: linear-gradient(to right, transparent, transparent);
+    font-size: 20px;
+    padding-top: 20px; 
+    padding-left: 20px;
+}
+
+section#content {
+    background-color: #88f5b9ab;
+    padding-top: 10px; 
+    padding-left: 20px;
 }
