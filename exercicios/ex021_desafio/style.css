@@ -16,7 +16,7 @@ header {
     text-align: center;
     background-image: linear-gradient(to top,#195B38,#3CD782);
     color: white;
-    padding-top: 10px;
+    padding: 10px;
     margin: auto;
 }
 
@@ -78,12 +78,62 @@ section#learn_more>h1 {
     font-weight: bold;
     background-image: linear-gradient(to right, transparent, transparent);
     font-size: 20px;
-    padding-top: 20px; 
-    padding-left: 20px;
+    padding: 20px; 
+    margin: 0px;
 }
 
 section#content {
     background-color: #88f5b9ab;
-    padding-top: 10px; 
-    padding-left: 20px;
+    padding: 5px 20px;
+    border-radius: 15px;
+}
+
+section#content>ul {
+    width: 200px;
+    height: 150px;
+
+}
+
+section#content>p {
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 18px;
+}
+img {
+    margin: auto;
+}
+
+div#Video {
+    background-color: #145533;
+    width: 750px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+div#Video>iframe {
+    margin: auto;
+    display: block;
+    padding-top: 35px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #145533;
+    color: white;
+    padding: 10px;
+    margin: auto;
+}
+
+footer>p {
+    margin: 0px;
+}
+
+#robo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
