@@ -21,12 +21,17 @@ body {
     margin: 0px;
 }
 
+a.externo::after {
+    content: "\1F517";
+}
+
 header {
     text-align: center;
     background-image: linear-gradient(to top,#195B38,#3CD782);
     color: white;
     padding: 10px;
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 header>h2 {
@@ -45,13 +50,13 @@ nav>a {
     font-weight: bold;
     padding: 3px;
     margin-right: 10px;
+    transition-duration: 0.2s;
 }
 
 a:hover {
     background-color: #1c9e57;
     padding: 3px;
     border-radius: 5px;
-    text-decoration: underline;
 }
 
 a {
@@ -82,7 +87,7 @@ main>section {
 }
 
 section#learn_more {
-    background-color: var(--cor3);
+    background-color: var(--cor1);
     border-radius: 15px;
 }
 
@@ -96,16 +101,21 @@ section#learn_more>h1 {
     margin: 0px;
 }
 
+aside {
+    padding-top: 10px;
+    margin: auto;
+}
+
+aside ul {
+    list-style-type: "\2705\00A0\00A0";
+    list-style-position: inside;
+    columns: 2;
+}
+
 section#content {
     background-color: var(--cor5);
     padding: 5px 20px;
-    border-radius: 15px;
-}
-
-section#content>ul {
-    width: 200px;
-    height: 150px;
-
+    border-radius: 0px 0px 15px 15px;
 }
 
 section#content>p {
