@@ -66,6 +66,10 @@ div.normal {
 div.imagem {
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.445);
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 div.imagem > p {
@@ -78,18 +82,10 @@ div.imagem > p {
 
 div:nth-child(2){
     background-image: url(imagens/background001.jpg);
-    background-size: cover;
-    background-position: right center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 div:nth-child(4){
     background-image: url(imagens/background002.jpg);
-    background-size: cover;
-    background-position: right center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 footer {
