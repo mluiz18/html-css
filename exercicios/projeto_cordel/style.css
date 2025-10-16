@@ -41,6 +41,27 @@ a:hover {
     text-decoration: underline;
 }
 
+div {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px
+}
+
+div.normal {
+    background-color: white;
+    color: black;
+}
+
+div.imagem {
+    color: white;
+}
+
+div.imagem > p{
+    background-color: rgba(0, 0, 0, 0.384);
+    width: 400px;
+}
+
 footer {
     padding-top: 20px;
     padding-bottom: 20px;
