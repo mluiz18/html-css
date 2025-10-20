@@ -17,6 +17,11 @@
             padding: 10px;
         }
 
+        caption {
+            font-size: 1.25em;
+            font-weight: bold;
+            padding: 10px;
+        }
         thead,tfoot {
             background-color: gray;
             color: white;
@@ -30,10 +35,11 @@
 <body>
     <h1>Uso de tabelas grandes</h1>
     <table>
+        <caption>População das Unidades Federativas do Brasil.</caption>
         <thead>
             <tr>
-                <th>UF</th>
-                <th>População</th>
+                <th scope="col">UF</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
@@ -148,7 +154,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td class="num">213.421.037</td>
             </tr>
         </tfoot>
