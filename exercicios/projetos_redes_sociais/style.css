@@ -24,3 +24,10 @@ nav {
 a img{
     border-radius: 50%;
 }
+
+div#celular img {
+    position: relative;
+    left: 44vw;
+    top: 25vh;
+    height: 1500px;
+}
