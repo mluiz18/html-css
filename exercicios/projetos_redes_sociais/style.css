@@ -25,9 +25,17 @@ a img{
     border-radius: 50%;
 }
 
-div#celular img {
-    position: relative;
+div#celular img{
+    position: absolute;
     left: 44vw;
     top: 25vh;
     height: 1500px;
+}
+
+div#celular iframe{
+    position: absolute;
+    left: 45vw;
+    top: 32vh;
+    width: 650px;
+    height: 1150px;
 }
